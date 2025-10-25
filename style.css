@@ -1,15 +1,15 @@
 body{
     margin: 0px;
-    padding: 0px;
-    width: 100%;
-overflow-x: hidden;
+    /* padding: 0px; */
+    /* width: 100%; */
+/* overflow-x: hidden; */
 }
-.div{
+/* .div{
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: orange;
-}
+} */
 
 .hero {
     background-color: orange;
@@ -25,7 +25,13 @@ overflow-x: hidden;
     
    
 }
+.text p{
+    display: inline-block;
+}
 
+.hero p{
+    display: inline-block;
+}
 
 .hero img{
     max-width: 100%;
@@ -44,6 +50,7 @@ section{
     font-family: salsa ;
     max-width: 650px;
     /* margin-left: 15rem; */
+    display: inline-block;
 }
 
 .text{
@@ -55,6 +62,7 @@ audio::-webkit-media-controls-panel {
     background-color: #FBD8A4;
     color: black;
 }
+
 .audio{
     display: flex;
     justify-content: center;
@@ -62,7 +70,8 @@ audio::-webkit-media-controls-panel {
     border-radius: 50px;
     background-color: #FBD8A4;
     padding: 5px 10px;
-    max-width: 31rem;
+    /* max-width: 31rem;*/
+    max-width: max-content;
     gap: 10px;
 }
 
@@ -80,13 +89,24 @@ h4{
     padding-bottom: 0px;
     padding-top: 3rem;
 }
-
+.main image{
+    /* display: block;
+    margin-inline: auto; */
+    /* margin-block: 30px; */
+    max-width: 900px;
+}
 /* second section */
-.main p{
+.main span{
     font-family: Style Script;
     font-size: 5rem;
     margin-top: 0px;
 }
+.main2 span{
+    font-family: Style Script;
+    /* font-size: 5rem; */
+    margin-top: 0px;
+}
+
 
 
 .second {
@@ -95,6 +115,12 @@ h4{
     align-items: center;
     background-color: orange;
 }
+
+.second p{
+    font-size: 5rem;
+    font-family: style script;
+}
+
 
 
 @media (max-width : 845px) {
@@ -113,19 +139,76 @@ display: none;
     box-sizing: border-box;
     padding-left: 1rem;
 }
+
  .hero {
         /* flex-direction: column; */
         /* padding: 12px; */
-        /* width: 100%; */
+        width: 100%;
     }
 
     .jhalar{
         margin-bottom: 0px;
     }
+
 .audio{
 
-max-width: max-content;
+width: 100%;
 }
+
+
 
 }
 
+@media (max-width:540px) {
+    .text{
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .first-deep{
+        width:100%;
+    }
+
+}
+
+.horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 1210px;
+       margin: 30px;
+       padding: 30px;
+ 
+}
+.hori{
+    height: 4px;
+    width: 468px;
+    background-color: white;
+}
+
+.circle{
+    height: 4px;
+    width: 4px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.section{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  /* padding-top: 20px; */
+   background-color: orange;
+}
+
+.section img{
+    display: block;
+    margin-inline: auto;
+}
+
+.section span{
+    font-size: 4rem;
+    align-self: center;
+
+}
