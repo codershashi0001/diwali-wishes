@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+overflow-x: hidden;
+}
+.div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+.hero {
+    background-color: orange;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./assets/orange-backdrop\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* display: flex; इसे एक Flex कंटेनर बनाएं */
+    /* flex-direction: column; ताकि सब कुछ एक के नीचे एक (vertically) स्टैक हो */
+    /* align-items: flex-start; */
+    
+   
+}
+
+
+.hero img{
+    max-width: 100%;
+    height:auto;
+}
+
+section{
+     width: 100%;
+}
+.jhalar {
+    width: 220px;
+    margin-bottom: -180px;
+}
+.hero p{
+    font-size: 50px;
+    font-family: salsa ;
+    max-width: 650px;
+    /* margin-left: 15rem; */
+}
+
+.text{
+    margin-left: 15rem;
+    /* display: inline-block; */
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #FBD8A4;
+    color: black;
+}
+.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #FBD8A4;
+    padding: 5px 10px;
+    max-width: 31rem;
+    gap: 10px;
+}
+
+
+h4{
+    margin: 0px;
+}
+
+.main{
+    background-color: orange;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    padding: 1rem;
+    padding-bottom: 0px;
+    padding-top: 3rem;
+}
+
+/* second section */
+.main p{
+    font-family: Style Script;
+    font-size: 5rem;
+    margin-top: 0px;
+}
+
+
+.second {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+
+@media (max-width : 845px) {
+    .first-deep{
+        display: block;
+        margin-left: auto;
+    }
+
+.second-deep,h4,.music-icon{
+display: none;
+}
+
+.text{
+ width: 100%;
+    margin-left: 0px;
+    box-sizing: border-box;
+    padding-left: 1rem;
+}
+ .hero {
+        /* flex-direction: column; */
+        /* padding: 12px; */
+        /* width: 100%; */
+    }
+
+    .jhalar{
+        margin-bottom: 0px;
+    }
+.audio{
+
+max-width: max-content;
+}
+
+}
+
