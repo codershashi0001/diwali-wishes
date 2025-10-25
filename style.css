@@ -96,16 +96,8 @@ h4{
     max-width: 900px;
 }
 /* second section */
-.main span{
-    font-family: Style Script;
-    font-size: 5rem;
-    margin-top: 0px;
-}
-.main2 span{
-    font-family: Style Script;
-    /* font-size: 5rem; */
-    margin-top: 0px;
-}
+
+
 
 
 
@@ -205,10 +197,13 @@ width: 100%;
 .section img{
     display: block;
     margin-inline: auto;
+     /* max-width: 900px; */
 }
 
-.section span{
-    font-size: 4rem;
-    align-self: center;
+.section p{
+    font-size: 5rem;
+    text-align: center;
+    display: block;
+    font-family: style script;
 
 }
